@@ -1,0 +1,13 @@
+[package]
+name = "memexec"
+version = "0.3.0"
+authors = ["FssAy", "iv4n <iv4n.cc@qq.com>"]
+edition = "2018"
+description = "A library for loading and executing PE (Portable Executable) from memory without ever touching the disk"
+repository = "https://github.com/DmitrijVC/memexec.git"
+license = "GPL-3.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+hook = []
